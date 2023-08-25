@@ -4,8 +4,7 @@ on:
   push:
   pull_request:
   schedule:
-    - cron: 016 * * *
-
+    - cron: 17 */1 * * *
 jobs:
   build:
     runs-on: ubuntu-latest
